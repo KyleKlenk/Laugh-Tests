@@ -1,0 +1,21 @@
+controlVersion       'SUMMA_FILE_MANAGER_V3.0.0' !  fman_ver
+simStartTime         '2000-01-01 00:01' ! 
+simEndTime           '2000-01-03 12:00' ! 
+tmZoneInfo           'localTime' ! 
+settingsPath         '<BASEDIR>/settings/' !  setting_path
+forcingPath          '<BASEDIR>/testCases_data/inputData/syntheticData/mizoguchi1990/' !  input_path
+outputPath           '<BASEDIR>/output/syntheticTestCases/mizoguchi1990/' !  output_path
+decisionsFile        'syntheticTestCases/mizoguchi1990/summa_zDecisions_mizoguchi.txt' !  decision
+outputControlFile    'meta/Model_Output.txt' !  OUTPUT_CONTROL
+globalHruParamFile   'syntheticTestCases/mizoguchi1990/summa_zLocalParamInfo.txt' !  local_par
+globalGruParamFile   'syntheticTestCases/mizoguchi1990/summa_zBasinParamInfo.txt' !  basin_par
+attributeFile        'syntheticTestCases/mizoguchi1990/summa_zLocalAttributes.nc' !  local_attr
+trialParamFile       'syntheticTestCases/mizoguchi1990/summa_zParamTrial_mizoguchi.nc' !  para_trial
+forcingListFile      'syntheticTestCases/mizoguchi1990/summa_zForcingFileList.txt' !  forcing_list
+initConditionFile    'syntheticTestCases/mizoguchi1990/summa_zInitialCond_mizoguchi.nc' !  initial_cond
+outFilePrefix        'mizoguchi1990' !  output_prefix
+vegTableFile         'VEGPARM.TBL' ! 
+soilTableFile        'SOILPARM.TBL' ! 
+generalTableFile     'GENPARM.TBL' ! 
+noahmpTableFile      'MPTABLE.TBL' ! 
+! history Mon Jul 20 16:08:18 2020: /pool0/home/andrbenn/data/summa_3/utils/convert_summa_config_v2_v3.py ./syntheticTestCases/mizoguchi1990/summa_fileManager_mizoguchi.txt
