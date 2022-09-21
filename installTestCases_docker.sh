@@ -15,16 +15,23 @@
 # fi
 
 # create the paths for the output files
-mkdir -p output/celia1990
-mkdir -p output/colbeck1976
-mkdir -p output/miller1998
-mkdir -p output/mizoguchi1990
-mkdir -p output/wigmosta1999
+# mkdir -p output/celia1990
+# mkdir -p output/colbeck1976
+# mkdir -p output/miller1998
+# mkdir -p output/mizoguchi1990
+# mkdir -p output/wigmosta1999
 
+BASEDIR=`pwd`
+TEST_CASE_SETTINGS_DIR=test_cases/settings/syntheticTestCases
 # # modify the paths in the model input file
 # # we create a new directories to preserve copies of the original files in case
 # # something goes wrong
-# BASEDIR=`pwd`
+
+for DIR in ${TEST_CASE_SETTINGS_DIR}/*; do
+    echo "$(basename "$DIR")"
+done
+
+
 # for DIR in settings testCases_data
 #     do
 #         cp -rp ${DIR}_org ${DIR}

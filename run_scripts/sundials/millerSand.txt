@@ -1,0 +1,126 @@
+ GRU-Parallelization run activated. 1 GRUs are selected for simulation.
+file_master is '/SUMMA/Laugh-Tests/settings/syntheticTestCases/miller1998/summa_fileManager_millerSand.txt'.
+   1 controlVersion: SUMMA_FILE_MANAGER_V3.0.0
+   2 simStartTime: 2000-01-01 00:30
+   3 simEndTime: 2000-01-03 12:00
+   4 tmZoneInfo: localTime
+   5 settingsPath: /SUMMA/Laugh-Tests/settings/
+   6 forcingPath: /SUMMA/Laugh-Tests/input_data/miller1998/
+   7 outputPath: /SUMMA/Laugh-Tests/output/miller1998/
+   8 decisionsFile: syntheticTestCases/miller1998/summa_zDecisions_miller1998.txt
+   9 outputControlFile: meta/Model_Output.txt
+  10 globalHruParamFile: syntheticTestCases/miller1998/summa_zLocalParamInfo.txt
+  11 globalGruParamFile: syntheticTestCases/miller1998/summa_zBasinParamInfo.txt
+  12 attributeFile: syntheticTestCases/miller1998/summa_zLocalAttributes.nc
+  13 trialParamFile: syntheticTestCases/miller1998/summa_zParamTrial_millerSand.nc
+  14 forcingListFile: syntheticTestCases/miller1998/summa_zForcingFileList.txt
+  15 initConditionFile: syntheticTestCases/miller1998/summa_zInitialCond_millerSand.nc
+  16 outFilePrefix: millerSand
+  17 vegTableFile: VEGPARM.TBL
+  18 soilTableFile: SOILPARM.TBL
+  19 generalTableFile: GENPARM.TBL
+  20 noahmpTableFile: MPTABLE.TBL
+decisions file =  /SUMMA/Laugh-Tests/settings/syntheticTestCases/miller1998/summa_zDecisions_miller1998.txt
+   1 soilCatTbl: ROSETTA
+   2 vegeParTbl: USGS
+   3 soilStress: NoahType
+   4 stomResist: BallBerry
+   5 num_method: itertive
+   6 fDerivMeth: analytic
+   7 LAI_method: monTable
+   8 f_Richards: mixdform
+   9 groundwatr: noXplict
+  10 hc_profile: constant
+  11 bcUpprTdyn: zeroFlux
+  12 bcLowrTdyn: zeroFlux
+  13 bcUpprSoiH: presHead
+  14 bcLowrSoiH: presHead
+  15 veg_traits: CM_QJRMS1988
+  16 canopyEmis: difTrans
+  17 snowIncept: lightSnow
+  18 windPrfile: logBelowCanopy
+  19 astability: louisinv
+  20 canopySrad: CLM_2stream
+  21 alb_method: varDecay
+  22 compaction: anderson
+  23 snowLayers: CLM_2010
+  24 thCondSnow: jrdn1991
+  25 thCondSoil: mixConstit
+  26 spatial_gw: localColumn
+  27 subRouting: timeDlay
+startTime: iyyy, im, id, ih, imin = 2000  1  1  0 30
+finshTime: iyyy, im, id, ih, imin = 2000  1  3 12  0
+number of time steps =         239
+ 
+INFO: aspect not found in the input attribute file, continuing ...
+
+Skipping over SLTYPE = STAS
+Skipping over SLTYPE = STAS-RUC
+ WARNING: routingRunoffFuture is not in the initial conditions file ... using zeros
+ step --->            1
+ Created output file: /SUMMA/Laugh-Tests/output/miller1998/millerSand_G1-1_timestep.nc
+ step --->            2
+ step --->            3
+ step --->            4
+ step --->            5
+ step --->            6
+ step --->            7
+ step --->            8
+ step --->            9
+ step --->           10
+ step --->           11
+ step --->           12
+ step --->           13
+ step --->           14
+ step --->           15
+ step --->           16
+ step --->           17
+ step --->           18
+ step --->           19
+ step --->           20
+ step --->           21
+ step --->           22
+ step --->           23
+ step --->           24
+ step --->           25
+ step --->           26
+ step --->           27
+ step --->           28
+ step --->           29
+ step --->           30
+ step --->           31
+ step --->           32
+ step --->           33
+ step --->           34
+ step --->           35
+ step --->           36
+ step --->           37
+ step --->           38
+ step --->           39
+ step --->           40
+ step --->           41
+ step --->           42
+ step --->           43
+ step --->           44
+ step --->           45
+ step --->           46
+ step --->           47
+ step --->           48
+ step --->           49
+ step --->           50
+ step --->           51
+ step --->           52
+ step --->           53
+ step --->           54
+ step --->           55
+ step --->           56
+ step --->           57
+ step --->           58
+ step --->           59
+ step --->           60
+ step --->           61
+ step --->           62
+ step --->           63
+ step --->           64
+ step --->           65
+ step --->           66
