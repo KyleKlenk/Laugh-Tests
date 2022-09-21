@@ -54,7 +54,7 @@ def verify_data(verified_data, compare_data, num_hru, output_variables):
 
                 # check values
                 for elem in range(0, len(verified_data_list)):
-                    if abs(verified_data_list[elem] - to_verify_data[elem]) > 0.001:
+                    if abs(verified_data_list[elem] - to_verify_data[elem]) != 0:
                         # print("variable -",var, "has different values at", elem)
                         # print("     verified_hru = ", verified_data[elem])
                         # print("     hru_to_compare = ", to_verify_data[elem])
