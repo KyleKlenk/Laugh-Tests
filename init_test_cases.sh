@@ -15,11 +15,12 @@
 # fi
 
 # create the paths for the output files
-# mkdir -p output/celia1990
-# mkdir -p output/colbeck1976
-# mkdir -p output/miller1998
-# mkdir -p output/mizoguchi1990
-# mkdir -p output/wigmosta1999
+mkdir -p test_cases/output/celia1990
+mkdir -p test_cases/output/colbeck1976
+mkdir -p test_cases/output/miller1998
+mkdir -p test_cases/output/mizoguchi1990
+mkdir -p test_cases/output/vanderborght2005
+mkdir -p test_cases/output/wigmosta1999
 
 BASEDIR=`pwd`
 TEST_CASE_SETTINGS_DIR=test_cases/settings/syntheticTestCases
@@ -31,7 +32,7 @@ for DIR in ${TEST_CASE_SETTINGS_DIR}/*; do
     for FILE in `grep -l '<BASEDIR>' -R ${DIR}`; do
         RUN_FILE="$FILE"
         # Create a file to use for testing while preserving the orignal fileManager file
-        sed "s|<BASEDIR>|${BASEDIR}|" $FILE > "${RUN_FILE/./"_test."}"
+        sed "s|<BASEDIR>|${BASEDIR}/test_cases|" $FILE > "${RUN_FILE/./"_test."}"
     done
 done
 
