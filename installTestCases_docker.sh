@@ -28,7 +28,11 @@ TEST_CASE_SETTINGS_DIR=test_cases/settings/syntheticTestCases
 # # something goes wrong
 
 for DIR in ${TEST_CASE_SETTINGS_DIR}/*; do
-    echo "$(basename "$DIR")"
+    for FILE in `grep -l '<BASEDIR>' -R ${DIR}`; do
+        RUN_FILE="$FILE"
+        # Create a file to use for testing while preserving the orignal fileManager file
+        sed "s|<BASEDIR>|${BASEDIR}|" $FILE > "${RUN_FILE/./"_test."}"
+    done
 done
 
 

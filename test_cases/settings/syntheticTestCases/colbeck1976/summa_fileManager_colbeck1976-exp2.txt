@@ -2,9 +2,9 @@ controlVersion       'SUMMA_FILE_MANAGER_V3.0.0' !
 simStartTime         '1990-01-01 00:01' !
 simEndTime           '1990-01-01 10:00' !
 tmZoneInfo           'localTime' ! Time zone info
-settingsPath         '/SUMMA/Laugh-Tests/settings/' !  SETNGS_PATH
-forcingPath          '/SUMMA/Laugh-Tests/input_data/colbeck1976/' !  INPUT_PATH
-outputPath           '/SUMMA/Laugh-Tests/output/colbeck1976/' !  OUTPUT_PATH
+settingsPath         '<BASEDIR>/settings/' !  SETNGS_PATH
+forcingPath          '<BASEDIR>/input_data/colbeck1976/' !  INPUT_PATH
+outputPath           '<BASEDIR>/output/colbeck1976/' !  OUTPUT_PATH
 decisionsFile        'syntheticTestCases/colbeck1976/summa_zDecisions_colbeck1976.txt' !  M_DECISIONS      = definition of model decisions
 outputControlFile    'syntheticTestCases/colbeck1976/summa_defineModelOutput.txt' !  OUTPUT_CONTROL
 globalHruParamFile   'syntheticTestCases/colbeck1976/summa_zLocalParamInfo.txt' !  LOCALPARAM_INFO  = default values and constraints for local model parameters
