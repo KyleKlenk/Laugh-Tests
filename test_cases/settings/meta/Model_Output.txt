@@ -20,6 +20,7 @@ iLayerHeight              | 1
 iLayerLiqFluxSoil         | 1
 mLayerTemp                | 1
 mLayerDepth               | 1
+mLayerHeight              | 1
 mLayerLiqFluxSoil         | 1
 mLayerVolFracIce          | 1
 mLayerVolFracLiq          | 1

@@ -89,7 +89,7 @@ def get_output_vars(model_output_file):
 
 num_hru = 1
 
-verification_dir_path = "./validation_data/m2_mac_Sept21"
+verification_dir_path = "./validation_data/m2_mac_Sept23"
 data_to_compare_path = "./test_cases/output"
 
 print("Checking Celia")
