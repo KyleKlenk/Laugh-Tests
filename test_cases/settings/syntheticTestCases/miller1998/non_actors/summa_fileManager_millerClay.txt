@@ -14,8 +14,7 @@ trialParamFile       'syntheticTestCases/miller1998/summa_zParamTrial_millerClay
 forcingListFile      'syntheticTestCases/miller1998/summa_zForcingFileList.txt' !  forcing_list
 initConditionFile    'syntheticTestCases/miller1998/summa_zInitialCond_millerClay.nc' !  initial_cond
 outFilePrefix        'millerClay' !  output_prefix
-vegTableFile         'VEGPARM.TBL' ! 
-soilTableFile        'SOILPARM.TBL' ! 
-generalTableFile     'GENPARM.TBL' ! 
-noahmpTableFile      'MPTABLE.TBL' ! 
-! history Mon Jul 20 16:08:17 2020: /pool0/home/andrbenn/data/summa_3/utils/convert_summa_config_v2_v3.py ./syntheticTestCases/miller1998/summa_fileManager_millerClay.txt
+vegTableFile         'meta/VEGPARM.TBL' ! 
+soilTableFile        'meta/SOILPARM.TBL' ! 
+generalTableFile     'meta/GENPARM.TBL' ! 
+noahmpTableFile      'meta/MPTABLE.TBL' ! 

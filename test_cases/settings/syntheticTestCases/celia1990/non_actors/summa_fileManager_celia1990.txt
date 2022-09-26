@@ -4,17 +4,17 @@ simEndTime           '2000-01-03 12:00' !
 tmZoneInfo           'localTime' ! 
 settingsPath         '<BASEDIR>/settings/' !  setting_path
 forcingPath          '<BASEDIR>/input_data/celia1990/' !  input_path
-outputPath           '<BASEDIR>/output/celia1990/' !  output_path
-decisionsFile        'syntheticTestCases/celia1990/summa_zDecisions_celia1990.txt' !  decision
+outputPath           '<BASEDIR>/output/non-actors/celia1990/' !  output_path
+decisionsFile        'syntheticTestCases/celia1990/common/summa_zDecisions_celia1990.txt' !  decision
 outputControlFile    'meta/Model_Output.txt' !  OUTPUT_CONTROL
-globalHruParamFile   'syntheticTestCases/celia1990/summa_zLocalParamInfo.txt' !  local_par
-globalGruParamFile   'syntheticTestCases/celia1990/summa_zBasinParamInfo.txt' !  basin_par
-attributeFile        'syntheticTestCases/celia1990/summa_zLocalAttributes.nc' !  local_attr
-trialParamFile       'syntheticTestCases/celia1990/summa_zParamTrial_celia1990.nc' !  para_trial
-forcingListFile      'syntheticTestCases/celia1990/summa_zForcingFileList.txt' !  forcing_list
-initConditionFile    'syntheticTestCases/celia1990/summa_zInitialCond_celia1990.nc' !  initial_cond
+globalHruParamFile   'syntheticTestCases/celia1990/common/summa_zLocalParamInfo.txt' !  local_par
+globalGruParamFile   'syntheticTestCases/celia1990/common/summa_zBasinParamInfo.txt' !  basin_par
+attributeFile        'syntheticTestCases/celia1990/common/summa_zLocalAttributes.nc' !  local_attr
+trialParamFile       'syntheticTestCases/celia1990/common/summa_zParamTrial_celia1990.nc' !  para_trial
+forcingListFile      'syntheticTestCases/celia1990/common/summa_zForcingFileList.txt' !  forcing_list
+initConditionFile    'syntheticTestCases/celia1990/common/summa_zInitialCond_celia1990.nc' !  initial_cond
 outFilePrefix        'celia1990' !  output_prefix
-vegTableFile         'VEGPARM.TBL' ! 
-soilTableFile        'SOILPARM.TBL' ! 
-generalTableFile     'GENPARM.TBL' ! 
-noahmpTableFile      'MPTABLE.TBL' ! 
+vegTableFile         'meta/VEGPARM.TBL' ! 
+soilTableFile        'meta/SOILPARM.TBL' ! 
+generalTableFile     'meta/GENPARM.TBL' ! 
+noahmpTableFile      'meta/MPTABLE.TBL' ! 

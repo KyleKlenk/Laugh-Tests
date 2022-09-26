@@ -14,8 +14,7 @@ trialParamFile       'syntheticTestCases/mizoguchi1990/summa_zParamTrial_mizoguc
 forcingListFile      'syntheticTestCases/mizoguchi1990/summa_zForcingFileList.txt' !  forcing_list
 initConditionFile    'syntheticTestCases/mizoguchi1990/summa_zInitialCond_mizoguchi.nc' !  initial_cond
 outFilePrefix        'mizoguchi1990' !  output_prefix
-vegTableFile         'VEGPARM.TBL' ! 
-soilTableFile        'SOILPARM.TBL' ! 
-generalTableFile     'GENPARM.TBL' ! 
-noahmpTableFile      'MPTABLE.TBL' ! 
-! history Mon Jul 20 16:08:18 2020: /pool0/home/andrbenn/data/summa_3/utils/convert_summa_config_v2_v3.py ./syntheticTestCases/mizoguchi1990/summa_fileManager_mizoguchi.txt
+vegTableFile         'meta/VEGPARM.TBL' ! 
+soilTableFile        'meta/SOILPARM.TBL' ! 
+generalTableFile     'meta/GENPARM.TBL' ! 
+noahmpTableFile      'meta/MPTABLE.TBL' ! 

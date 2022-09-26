@@ -16,7 +16,7 @@ trialParamFile       'syntheticTestCases/celia1990/common/summa_zParamTrial_celi
 forcingListFile      'syntheticTestCases/celia1990/common/summa_zForcingFileList.txt' !  forcing_list
 initConditionFile    'syntheticTestCases/celia1990/common/summa_zInitialCond_celia1990.nc' !  initial_cond
 outFilePrefix        'celia1990' !  output_prefix
-vegTableFile         'VEGPARM.TBL' ! 
-soilTableFile        'SOILPARM.TBL' ! 
-generalTableFile     'GENPARM.TBL' ! 
-noahmpTableFile      'MPTABLE.TBL' ! 
+vegTableFile         'meta/VEGPARM.TBL' ! 
+soilTableFile        'meta/SOILPARM.TBL' ! 
+generalTableFile     'meta/GENPARM.TBL' ! 
+noahmpTableFile      'meta/MPTABLE.TBL' ! 
