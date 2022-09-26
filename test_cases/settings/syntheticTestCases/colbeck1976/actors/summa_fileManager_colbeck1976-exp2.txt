@@ -1,20 +1,22 @@
-controlVersion       'SUMMA_FILE_MANAGER_V3.0.0' !
-simStartTime         '1990-01-01 00:01' !
-simEndTime           '1990-01-01 10:00' !
-tmZoneInfo           'localTime' ! Time zone info
-settingsPath         '<BASEDIR>/settings/' !  SETNGS_PATH
-forcingPath          '<BASEDIR>/input_data/colbeck1976/' !  INPUT_PATH
-outputPath           '<BASEDIR>/output/colbeck1976/' !  OUTPUT_PATH
-decisionsFile        'syntheticTestCases/colbeck1976/summa_zDecisions_colbeck1976.txt' !  M_DECISIONS      = definition of model decisions
-outputControlFile    'syntheticTestCases/colbeck1976/summa_defineModelOutput.txt' !  OUTPUT_CONTROL
-globalHruParamFile   'syntheticTestCases/colbeck1976/summa_zLocalParamInfo.txt' !  LOCALPARAM_INFO  = default values and constraints for local model parameters
-globalGruParamFile   'syntheticTestCases/colbeck1976/summa_zBasinParamInfo.txt' !  BASINPARAM_INFO  = default values and constraints for basin-average parameters
-attributeFile        'syntheticTestCases/colbeck1976/summa_zLocalAttributes.nc' !  LOCAL_ATTRIBUTES = local attributes
-trialParamFile       'syntheticTestCases/colbeck1976/summa_zParamTrial_colbeck1976-exp2.nc' !  PARAMETER_TRIAL  = trial values for model parameters
-forcingListFile      'syntheticTestCases/colbeck1976/summa_zForcingFileList.txt' !  FORCING_FILELIST = list of files used in each HRU
-initConditionFile    'syntheticTestCases/colbeck1976/summa_zInitialCond_colbeck1976-exp2.nc' !  MODEL_INITCOND   = model initial conditions
-outFilePrefix        'colbeck1976-exp2' !  OUTPUT_PREFIX    = prefix for the output file
-vegTableFile         'meta/VEGPARM.TBL' !
-soilTableFile        'meta/SOILPARM.TBL' !
-generalTableFile     'meta/GENPARM.TBL' !
-noahmpTableFile      'meta/MPTABLE.TBL' !
+controlVersion       'SUMMA_FILE_MANAGER_V3.0.0'
+simStartTime         '1990-01-01 00:01'
+simEndTime           '1990-01-01 10:00'
+tmZoneInfo           'localTime'
+settingsPath         '<BASEDIR>/settings/'
+forcingPath          '<BASEDIR>/input_data/colbeck1976/'
+outputPath           '<BASEDIR>/output/actors/colbeck1976/'
+forcingFreq          'month'
+forcingStart         '1990-01-01' 
+decisionsFile        'syntheticTestCases/colbeck1976/common/summa_zDecisions_colbeck1976.txt'
+outputControlFile    'syntheticTestCases/colbeck1976/common/summa_defineModelOutput.txt'
+globalHruParamFile   'syntheticTestCases/colbeck1976/common/summa_zLocalParamInfo.txt'
+globalGruParamFile   'syntheticTestCases/colbeck1976/common/summa_zBasinParamInfo.txt'
+attributeFile        'syntheticTestCases/colbeck1976/common/summa_zLocalAttributes.nc'
+trialParamFile       'syntheticTestCases/colbeck1976/common/summa_zParamTrial_colbeck1976-exp2.nc'
+forcingListFile      'syntheticTestCases/colbeck1976/common/summa_zForcingFileList.txt'
+initConditionFile    'syntheticTestCases/colbeck1976/common/summa_zInitialCond_colbeck1976-exp2.nc'
+outFilePrefix        'colbeck1976-exp2'
+vegTableFile         'meta/VEGPARM.TBL'
+soilTableFile        'meta/SOILPARM.TBL'
+generalTableFile     'meta/GENPARM.TBL'
+noahmpTableFile      'meta/MPTABLE.TBL'
