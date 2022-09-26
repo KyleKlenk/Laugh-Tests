@@ -2,9 +2,9 @@ controlVersion       'SUMMA_FILE_MANAGER_V3.0.0' !  fman_ver
 simStartTime         '2000-01-01 00:30' ! 
 simEndTime           '2000-01-03 12:00' ! 
 tmZoneInfo           'localTime' ! 
-settingsPath         '<BASEDIR>/settings/' !  setting_path
-forcingPath          '<BASEDIR>/input_data/celia1990/' !  input_path
-outputPath           '<BASEDIR>/output/celia1990/' !  output_path
+settingsPath         '/Summa-Actors/Laugh-Tests/test_cases/settings/' !  setting_path
+forcingPath          '/Summa-Actors/Laugh-Tests/test_cases/input_data/celia1990/' !  input_path
+outputPath           '/Summa-Actors/Laugh-Tests/test_cases/output/celia1990/' !  output_path
 decisionsFile        'syntheticTestCases/celia1990/summa_zDecisions_celia1990.txt' !  decision
 outputControlFile    'meta/Model_Output.txt' !  OUTPUT_CONTROL
 globalHruParamFile   'syntheticTestCases/celia1990/summa_zLocalParamInfo.txt' !  local_par
@@ -18,4 +18,3 @@ vegTableFile         'VEGPARM.TBL' !
 soilTableFile        'SOILPARM.TBL' ! 
 generalTableFile     'GENPARM.TBL' ! 
 noahmpTableFile      'MPTABLE.TBL' ! 
-! history Mon Jul 20 16:08:18 2020: /pool0/home/andrbenn/data/summa_3/utils/convert_summa_config_v2_v3.py ./syntheticTestCases/celia1990/summa_fileManager_celia1990.txt

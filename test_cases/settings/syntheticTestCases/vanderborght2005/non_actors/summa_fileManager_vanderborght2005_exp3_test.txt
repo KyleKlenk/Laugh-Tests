@@ -1,0 +1,21 @@
+controlVersion       'SUMMA_FILE_MANAGER_V3.0.0' !  fman_ver
+simStartTime         '1990-01-01 00:00' !
+simEndTime           '1990-01-01 01:00' !
+tmZoneInfo           'localTime' ! Time zone info
+settingsPath         '/Summa-Actors/Laugh-Tests/test_cases/settings/' !  setting_path
+forcingPath          '/Summa-Actors/Laugh-Tests/test_cases/input_data/vanderborght2005/' !  input_path
+outputPath           '/Summa-Actors/Laugh-Tests/test_cases/output/vanderborght2005/' !  output_path
+decisionsFile        'syntheticTestCases/vanderborght2005/summa_zDecisions_vanderborght2005.txt' !  decision
+outputControlFile    'syntheticTestCases/vanderborght2005/Model_Output.txt' !  ouput_file
+globalHruParamFile   'syntheticTestCases/vanderborght2005/summa_zLocalParamInfo.txt' !  local_par
+globalGruParamFile   'syntheticTestCases/vanderborght2005/summa_zBasinParamInfo.txt' !  basin_par
+attributeFile        'syntheticTestCases/vanderborght2005/summa_zLocalAttributes.nc' !  local_attr
+trialParamFile       'syntheticTestCases/vanderborght2005/summa_zParamTrial_vanderborght2005_exp3.nc' !  para_trial
+forcingListFile      'syntheticTestCases/vanderborght2005/summa_zForcingFileList.txt' !  forcing_list
+initConditionFile    'syntheticTestCases/vanderborght2005/summa_zInitialCond_vanderborght2005.nc' !  initial_cond
+outFilePrefix        'vanderborght2005_exp3' !  output_prefix
+vegTableFile         'VEGPARM.TBL' !
+soilTableFile        'SOILPARM.TBL' !
+generalTableFile     'GENPARM.TBL' !
+noahmpTableFile      'MPTABLE.TBL' !
+! history Mon Jul 20 16:08:17 2020: /pool0/home/andrbenn/data/summa_3/utils/convert_summa_config_v2_v3.py ./syntheticTestCases/vanderborght2005/summa_fileManager_vanderborght2005_exp3.txt
