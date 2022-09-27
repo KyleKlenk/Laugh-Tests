@@ -1,5 +1,10 @@
 #! /bin/bash
 
-/SUMMA/bin/summa_sundials.exe -g 1 1 -m /SUMMA/Laugh-Tests/settings/syntheticTestCases/miller1998/summa_fileManager_millerClay_test.txt > millerClay.txt &
-/SUMMA/bin/summa_sundials.exe -g 1 1 -m /SUMMA/Laugh-Tests/settings/syntheticTestCases/miller1998/summa_fileManager_millerLoam_test.txt > millerLoam.txt &
-/SUMMA/bin/summa_sundials.exe -g 1 1 -m /SUMMA/Laugh-Tests/settings/syntheticTestCases/miller1998/summa_fileManager_millerSand_test.txt > millerSand.txt &
+$SUMMADIR/bin/summaMain -g 1 1 -m $BASEDIR/test_cases//settings/syntheticTestCases/miller1998/actors/summa_fileManager_millerClay_test.txt > ../../test_cases/output/actors/miller1998/miller_clay.txt
+echo "Miller 1 Finished"
+$SUMMADIR/bin/summaMain -g 1 1 -m $BASEDIR/test_cases/settings/syntheticTestCases/miller1998/actors/summa_fileManager_millerLoam_test.txt > ../../test_cases/output/actors/miller1998/miller_loam.txt
+echo "Miller 2 Finished"
+$SUMMADIR/bin/summaMain -g 1 1 -m $BASEDIR/test_cases/settings/syntheticTestCases/miller1998/actors/summa_fileManager_millerSand_test.txt > ../../test_cases/output/actors/miller1998/miller_sand.txt
+echo "Miller 3 Finished"
+
+echo "All Miller Tests Finished. Output located in $BASEDIR/test_cases/output/actors/miller1998/"

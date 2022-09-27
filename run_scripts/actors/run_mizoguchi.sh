@@ -1,3 +1,5 @@
 #! /bin/bash
 
-/SUMMA/bin/summa_sundials.exe -g 1 1 -m /SUMMA/Laugh-Tests/test_cases/settings/syntheticTestCases/mizoguchi1990/summa_fileManager_mizoguchi_test.txt
+$SUMMADIR/bin/summaMain -g 1 -n 1 -c $BASEDIR/test_cases/settings/syntheticTestCases/mizoguchi1990/actors > ../../test_cases/output/actors/mizoguchi1990/mizoguchi.txt
+
+echo "Mizoguchi Test Finished. Output located in $BASEDIR/test_cases/output/actors/mizoguchi1990/"
